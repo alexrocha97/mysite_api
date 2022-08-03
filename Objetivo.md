@@ -11,3 +11,16 @@ Outras publicações de mesma autoria(pessoa que fez login)
 Botões de proximo e antes para passar para outras publicações
 
 Página de Login
+
+
+Pacotes usados no projeto
+Microsoft.AspNetCore.Identity.EntityFrameworkCore 
+=> API/API.Domain/API.Infra
+Microsoft.EntityFrameworkCore.SqlServer
+=> API/API.Domain/API.Infra
+Microsoft.EntityFrameworkCore.Tools
+=> API/API.Domain/API.Infra
+Microsoft.EntityFrameworkCore.Design
+=> API/API.Domain/API.Infra
+Microsoft.AspNetCore.Identity.UI
+=> API/API.Domain/API.Infra

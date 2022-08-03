@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Csv1l5YE1vxGyz8Va/R6dlilQPoHoCsanBm6G9cD8QNk+cl6fpSl0OWadOAxG4IkAv0txnfvyOq3uAX9fZ9Eg==",
+  "dgSpecHash": "ghpBNPubHAoj8aHCmnAuadFHDQXPbMkUlq6qSAIY/yWZ/ipOlOL36reCdbimS1HgSojON8kwJApInKR0+2e1JQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ventu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

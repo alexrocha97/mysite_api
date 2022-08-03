@@ -1,0 +1,14 @@
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\bin\Debug\net6.0\API.Domain.deps.json
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\bin\Debug\net6.0\API.Domain.runtimeconfig.json
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\bin\Debug\net6.0\API.Domain.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\bin\Debug\net6.0\API.Domain.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.csproj.AssemblyReference.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.AssemblyInfoInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.AssemblyInfo.cs
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\refint\API.Domain.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\API.Domain.genruntimeconfig.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Domain\obj\Debug\net6.0\ref\API.Domain.dll

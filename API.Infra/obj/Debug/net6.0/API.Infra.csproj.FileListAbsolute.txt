@@ -1,0 +1,5 @@
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.AssemblyReference.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfoInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfo.cs
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.CoreCompileInputs.cache
