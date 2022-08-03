@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\API.csproj": {}
+    "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\API.csproj": {
+    "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\API.csproj",
-        "projectName": "API",
-        "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API\\obj\\",
+        "outputPath": "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",

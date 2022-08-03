@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7+YjT3pPAOFu1tURi5pFR3Om0Z/ztNxSRrezdzji41v/LyOjAVt8cW7LsP1g0Ozp8vyei4dNNwA4TLke6Y3IgQ==",
+  "dgSpecHash": "lIHVSgqA1OQSOcg16KSSwOgAzTbm58PbpHED+c3U8CcUYG88oablNMJMUITEOE15m4VHbA5HiUSVyhqjbVXLvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\API.Application\\API.Application.csproj",
+  "projectFilePath": "c:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_Api\\Api.Application\\Api.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
