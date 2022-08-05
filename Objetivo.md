@@ -24,3 +24,8 @@ Microsoft.EntityFrameworkCore.Design
 => API/API.Domain/API.Infra
 Microsoft.AspNetCore.Identity.UI
 => API/API.Domain/API.Infra
+
+
+comando Migratio no vscode
+dotnet ef migrations add init
+dotnet ef database update

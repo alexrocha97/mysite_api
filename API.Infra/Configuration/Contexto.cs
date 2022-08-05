@@ -6,6 +6,9 @@ namespace API.Infra.Configuration
 {
     public class Contexto : IdentityDbContext<ApplicationUser>
     {
+        public Contexto()
+        {}
+        
         public Contexto(DbContextOptions<Contexto> options) : base(options)
         {}
 
