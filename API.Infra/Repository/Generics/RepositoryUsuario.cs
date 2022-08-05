@@ -37,5 +37,27 @@ namespace API.Infra.Repository.Generics
 
             return true;
         }
+
+        public async Task<bool> IsExistsUser(string email, string senha)
+        {
+            try
+            {
+                using(var data = new Contexto(_optionsBuilder))
+                {
+                    return await data.ApplicationUser.
+                        Where(x => 
+                            x.Email.Equals(email) && 
+                            x.PasswordHash.Equals(senha))
+                            .AsNoTracking()
+                            .AnyAsync();
+                }
+            }
+            catch(Exception)
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
 }

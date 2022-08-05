@@ -3,3 +3,15 @@ C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfoInputs.cache
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfo.cs
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_Api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.CoreCompileInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.deps.json
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.runtimeconfig.json
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Domain.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\bin\Debug\net6.0\API.Domain.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.CopyComplete
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\refint\API.Infra.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.genruntimeconfig.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\ref\API.Infra.dll
