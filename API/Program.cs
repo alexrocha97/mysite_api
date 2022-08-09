@@ -82,6 +82,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// ADICIONANDO PARA USAR A AUTORIZAÇÃO
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

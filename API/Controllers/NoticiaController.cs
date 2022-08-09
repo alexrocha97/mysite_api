@@ -27,6 +27,16 @@ namespace API.Controllers
 
         [Authorize]
         [Produces("application/json")]
+        [HttpPost("/api/BuscarPorIdNoticia")]
+        public async Task<Noticia> BuscarPorIdNoticia(NoticiaMViewModel noticia)
+        {
+            var novaNoticia = await _appNoticia.GetById(noticia.IdNoticia);
+            return novaNoticia;
+        }
+
+
+        [Authorize]
+        [Produces("application/json")]
         [HttpPost("/api/AdicionarNoticia")]
         public async Task<List<Notifica>> AdicionarNoticia(NoticiaMViewModel noticia)
         {
@@ -60,18 +70,9 @@ namespace API.Controllers
         public async Task<List<Notifica>> ExcluirNoticia(NoticiaMViewModel noticia)
         {
             var novaNoticia = await _appNoticia.GetById(noticia.IdNoticia);
-            await _appNoticia.DeleteNoticia(novaNoticia);
+            await _appNoticia.Delete(novaNoticia);
 
             return novaNoticia.Notificacoes;
-        }
-
-        [Authorize]
-        [Produces("application/json")]
-        [HttpPost("/api/ExcluirNoticia")]
-        public async Task<Noticia> BuscarPorIdNoticia(NoticiaMViewModel noticia)
-        {
-            var novaNoticia = await _appNoticia.GetById(noticia.IdNoticia);
-            return novaNoticia;
         }
 
         private async Task<string> RetornarIdUsuarioLogado()

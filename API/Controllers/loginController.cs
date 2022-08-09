@@ -98,7 +98,7 @@ namespace API.Controllers
                         .AddIssuer("Teste.Securiry.Bearer")
                         .AddAudience("Teste.Securiry.Bearer")
                         .AddClaim("IdUsuario", IdUsuario)
-                        .AddExpiry(5)
+                        .AddExpiry(60)
                         .Builder();
                 
                 return Ok(token.value);
