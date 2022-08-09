@@ -59,5 +59,26 @@ namespace API.Infra.Repository.Generics
 
             return true;
         }
+
+        public async Task<string> RetornoIdUsuario(string email)
+        {
+             try
+            {
+                using(var data = new Contexto(_optionsBuilder))
+                {
+                    var usuario = await data.ApplicationUser.
+                        Where(x => 
+                            x.Email.Equals(email))
+                            .AsNoTracking()
+                            .FirstOrDefaultAsync();
+                    
+                    return usuario.Id;
+                }
+            }
+            catch(Exception)
+            {
+                return string.Empty;
+            }
+        }
     }
 }
