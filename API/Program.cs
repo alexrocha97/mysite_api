@@ -15,6 +15,9 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ADICIONANDO O CORS
+builder.Services.AddCors();
+
 builder.Services
     .AddDbContext<Contexto>(options => 
         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -73,12 +76,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// DANDO ACESSO AO CLIENTE A ACESSAR API OU IMPLEMENTAR O FRONT
+var Cliente01 = "https://google.com.br"; // EXEMPLO
+
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(b => b.WithOrigins(Cliente01));
 
 app.UseHttpsRedirection();
 
