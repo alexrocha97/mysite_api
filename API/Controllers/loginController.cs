@@ -78,7 +78,7 @@ namespace API.Controllers
         [HttpPost("/api/CreateTokenIdentity")]
         [AllowAnonymous]
         [Produces("application/json")]
-        public async Task<IActionResult> CreateTokenIdentity([FromBody]Login login)
+        public async Task<IActionResult> CreateTokenIdentity([FromBody]LoginDto login)
         {
             if(string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
             {

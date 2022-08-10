@@ -77,7 +77,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // DANDO ACESSO AO CLIENTE A ACESSAR API OU IMPLEMENTAR O FRONT
-var Cliente01 = "https://google.com.br"; // EXEMPLO
+var projFront = "http://localhost:4200"; // EXEMPLO
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
@@ -85,7 +85,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors(b => b.WithOrigins(Cliente01));
+
+#region Conexão com o projeto front
+app.UseCors(x => x
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .WithOrigins(projFront));
+#endregion
 
 app.UseHttpsRedirection();
 
