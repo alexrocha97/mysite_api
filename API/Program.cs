@@ -26,17 +26,17 @@ builder.Services.
         (options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<Contexto>();
 
 // INTERFACE E REPOSITORIO
-builder.Services.AddSingleton(typeof(IGenerics<>), (typeof(RepositoryGenerics<>)));
-builder.Services.AddSingleton<INoticia, RepositoryNoticia>();
-builder.Services.AddSingleton<IUsuario, RepositoryUsuario>();
+builder.Services.AddScoped(typeof(IGenerics<>), (typeof(RepositoryGenerics<>)));
+builder.Services.AddScoped<INoticia, RepositoryNoticia>();
+builder.Services.AddScoped<IUsuario, RepositoryUsuario>();
 
 // SERVIÇO DOMINIO
-builder.Services.AddSingleton<INoticiaServico, NoticiaService>();
+builder.Services.AddScoped<INoticiaServico, NoticiaService>();
 
 
 // INTERFACE APLICAÇÃO
-builder.Services.AddSingleton<IApplicationNoticia, ApplicationNoticia>();
-builder.Services.AddSingleton<IApplicationUsuario, ApplicationUsuario>();
+builder.Services.AddScoped<IApplicationNoticia, ApplicationNoticia>();
+builder.Services.AddScoped<IApplicationUsuario, ApplicationUsuario>();
 
 // CONFIGURATION JWT
 

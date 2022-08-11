@@ -27,6 +27,7 @@ namespace API.Controllers
             _appUsuario = appUsuario;
         }
 
+        #region Antigo endPoint
         // [HttpPost("/api/CreateToken")]
         // [AllowAnonymous]
         // [Produces("application/json")]
@@ -73,6 +74,7 @@ namespace API.Controllers
         //     else
         //         return BadRequest("Erro ao criar usuário");
         // }
+        #endregion
 
         // MESMA FORMA  DO ENDPOINT CREATETOKEN, MAS USANDO AS FERRAMENTAS DO IDENTITY
         [HttpPost("/api/CreateTokenIdentity")]
@@ -80,32 +82,14 @@ namespace API.Controllers
         [Produces("application/json")]
         public async Task<IActionResult> CreateTokenIdentity([FromBody]LoginDto login)
         {
-            if(string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
+            try
             {
-                return Unauthorized();
+                var result = await _appUsuario.GerarToken(login.email,login.senha);
+                return Ok(result);
             }
-            var result = await _userSignIn.
-                PasswordSignInAsync(login.email,login.senha,false,lockoutOnFailure: false);
-            
-            if(result.Succeeded)
+            catch(Exception ex)
             {
-                var IdUsuario = await _appUsuario.RetornoIdUsuario(login.email);
-
-                var token = new JsonWebTokenBuild()
-                    .AddSecurityKey(JsonWebTokenSecurity
-                        .Create("Secret_Key-12345678"))
-                        .AddSubject("Empresa - Canal de Noticia")
-                        .AddIssuer("Teste.Securiry.Bearer")
-                        .AddAudience("Teste.Securiry.Bearer")
-                        .AddClaim("IdUsuario", IdUsuario)
-                        .AddExpiry(60)
-                        .Builder();
-                
-                return Ok(token.value);
-            }
-            else
-            {
-                return Unauthorized();
+                return BadRequest(ex);
             }
         }
 
