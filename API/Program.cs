@@ -1,5 +1,6 @@
 using API.Application.Applications;
 using API.Application.Interfaces;
+using API.Application.Services;
 using API.Domain.Interfaces;
 using API.Domain.Interfaces.Generics;
 using API.Domain.Interfaces.InterfacesServices;
@@ -29,6 +30,7 @@ builder.Services.
 builder.Services.AddScoped(typeof(IGenerics<>), (typeof(RepositoryGenerics<>)));
 builder.Services.AddScoped<INoticia, RepositoryNoticia>();
 builder.Services.AddScoped<IUsuario, RepositoryUsuario>();
+builder.Services.AddScoped<IWebTokenManager, WebTokenManager>();
 
 // SERVIÇO DOMINIO
 builder.Services.AddScoped<INoticiaServico, NoticiaService>();
