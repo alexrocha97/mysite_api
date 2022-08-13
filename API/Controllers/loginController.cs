@@ -71,6 +71,15 @@ namespace API.Controllers
         // }
         #endregion
 
+        [HttpGet("/api/ListaUsuarios")]
+        [Authorize]
+        [Produces("application/json")]
+        public async Task<IEnumerable<Usuario>> ListaUsuarios()
+        {
+            return await _appUsuario.ListaDeUsuario();
+        }
+
+
         // MESMA FORMA  DO ENDPOINT CREATETOKEN, MAS USANDO AS FERRAMENTAS DO IDENTITY
         [HttpPost("/api/CreateTokenIdentity")]
         [AllowAnonymous]

@@ -4,6 +4,7 @@ using API.Application.Token;
 using API.Domain.Enums;
 using API.Domain.Interfaces;
 using API.Domain.Models;
+using API.Domain.Notifications;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 
@@ -28,12 +29,17 @@ namespace API.Application.Applications
             _webTokenManager = webTokenManager;
         }
 
+        public async Task<IEnumerable<Usuario>> ListaDeUsuario()
+        {
+            return await _usuario.ListaUsuario();
+        }
+
         public async Task<bool> AddUsuario(string email, string senha, int idade, string celular)
         {
             return await _usuario.AddUsuario(email,senha,idade,celular);
         }
 
-        public async Task<string> CreateUser(string email, string senha, string celular)
+        public async Task<Notifica> CreateUser(string email, string senha, string celular)
         {
             var isvalid = _webTokenManager.DadosValidos(email,senha);
             if(isvalid)
@@ -41,8 +47,11 @@ namespace API.Application.Applications
                 var result = await _webTokenManager.Create(email,senha,celular);
                 return result;
             }
-            return "Erro ao criar usuário";
-            
+            var notificacao = new Notifica()
+            {
+                Mensagem = "Erro ao criar usuário!"
+            };
+            return notificacao;
         }
 
         public async Task<string> GerarToken(string email, string senha)

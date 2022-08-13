@@ -4,6 +4,7 @@ using API.Application.Token;
 using API.Domain.Enums;
 using API.Domain.Interfaces;
 using API.Domain.Models;
+using API.Domain.Notifications;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 
@@ -24,7 +25,7 @@ namespace API.Application.Services
             _userSignIn = userSignIn;
         }
 
-        public async Task<string> Create(string email, string senha, string celular)
+        public async Task<Notifica> Create(string email, string senha, string celular)
         {
             var user = new ApplicationUser()
             {
@@ -36,7 +37,15 @@ namespace API.Application.Services
             var result = await _userManager.CreateAsync(user, senha);
             if(result.Errors.Any())
             {
-                return result.Errors.ToString();
+                foreach(var erro in result.Errors)
+                {
+                    var notificacao = new Notifica()
+                    {
+                        NomePropriedade = erro.Code,
+                        Mensagem = erro.Description
+                    };
+                    return notificacao;
+                }
             }
             // GERAÇÃO DE CONFIRMAÇÃO CASO PRECISE
             var userId = await _userManager.GetUserIdAsync(user);
@@ -50,9 +59,21 @@ namespace API.Application.Services
             var statusMessage = resultDeConfirmacao.Succeeded;
 
             if(resultDeConfirmacao.Succeeded)
-                return "Usuário confirmado com sucesso...!";
-            
-            return "Erro ao confirmar usuário.";
+            {
+                var notificacao = new Noticia()
+                {
+                    Mensagem = "Usuário confirmado com sucesso...!"
+                };
+                return notificacao;
+            }
+            else
+            {
+                var notificacao = new Noticia()
+                {
+                    Mensagem = "Erro ao confirmar usuário."
+                };
+                return notificacao;
+            }
         }
 
         public bool DadosValidos(string email, string senha)
