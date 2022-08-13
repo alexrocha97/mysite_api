@@ -1,3 +1,4 @@
+using API.Domain.Enums;
 using API.Domain.Interfaces;
 using API.Domain.Models;
 using API.Infra.Configuration;
@@ -58,6 +59,28 @@ namespace API.Infra.Repository.Generics
             }
 
             return true;
+        }
+
+        public async Task<IEnumerable<Usuario>> ListaUsuario()
+        {
+            using(var banco = new Contexto(_optionsBuilder))
+            {
+                var lstUsuario = new List<Usuario>();
+                var usuarios = await banco.ApplicationUser.ToListAsync();
+                foreach(var usuario in usuarios)
+                {
+                    var user = new Usuario()
+                    {
+                        Email = usuario.Email,
+                        Celular = usuario.Celular,
+                        Idade = usuario.Idade,
+                        Tipo = Enum.GetName(typeof(TipoUsuario),usuario.Tipo)
+                    };
+                    lstUsuario.Add(user);
+                }
+
+                return lstUsuario;
+            }
         }
 
         public async Task<string> RetornoIdUsuario(string email)

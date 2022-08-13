@@ -1,13 +1,8 @@
-using System.Text;
 using API.Application.Interfaces;
-using API.Domain.Enums;
 using API.Domain.Models;
-using API.Token;
 using API.ViewModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
 
 namespace API.Controllers
 {
@@ -16,17 +11,13 @@ namespace API.Controllers
     public class loginController : ControllerBase
     {
         private readonly IApplicationUsuario _appUsuario;
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _userSignIn;
-        public loginController(IApplicationUsuario appUsuario, 
-        UserManager<ApplicationUser> userManager, 
-        SignInManager<ApplicationUser> userSignIn)
+
+        public loginController(IApplicationUsuario appUsuario)
         {
-            _userManager = userManager;
-            _userSignIn = userSignIn;
             _appUsuario = appUsuario;
         }
 
+        #region Antigo endPoint
         // [HttpPost("/api/CreateToken")]
         // [AllowAnonymous]
         // [Produces("application/json")]
@@ -39,7 +30,7 @@ namespace API.Controllers
         //     var result = await _appUsuario.IsExistsUser(login.email, login.senha);
         //     if(result)
         //     {
-                // var IdUsuario = await _appUsuario.RetornoIdUsuario(login.email);
+        // var IdUsuario = await _appUsuario.RetornoIdUsuario(login.email);
 
         //         var token = new JsonWebTokenBuild()
         //             .AddSecurityKey(JsonWebTokenSecurity
@@ -49,7 +40,7 @@ namespace API.Controllers
         //                 .AddAudience("Teste.Securiry.Bearer").AddClaim("IdUsuario", IdUsuario)
         //                 .AddExpiry(5)
         //                 .Builder();
-                
+
         //         return Ok(token.value);
         //     }
         //     else
@@ -73,6 +64,15 @@ namespace API.Controllers
         //     else
         //         return BadRequest("Erro ao criar usuário");
         // }
+        #endregion
+
+        [HttpGet("/api/ListaUsuarios")]
+        [Authorize]
+        [Produces("application/json")]
+        public async Task<IEnumerable<Usuario>> ListaUsuarios()
+        {
+            return await _appUsuario.ListaDeUsuario();
+        }
 
         // MESMA FORMA  DO ENDPOINT CREATETOKEN, MAS USANDO AS FERRAMENTAS DO IDENTITY
         [HttpPost("/api/CreateTokenIdentity")]
@@ -80,32 +80,14 @@ namespace API.Controllers
         [Produces("application/json")]
         public async Task<IActionResult> CreateTokenIdentity([FromBody]LoginDto login)
         {
-            if(string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
+            try
             {
-                return Unauthorized();
+                var result = await _appUsuario.GerarToken(login.email,login.senha);
+                return Ok(result);
             }
-            var result = await _userSignIn.
-                PasswordSignInAsync(login.email,login.senha,false,lockoutOnFailure: false);
-            
-            if(result.Succeeded)
+            catch(Exception ex)
             {
-                var IdUsuario = await _appUsuario.RetornoIdUsuario(login.email);
-
-                var token = new JsonWebTokenBuild()
-                    .AddSecurityKey(JsonWebTokenSecurity
-                        .Create("Secret_Key-12345678"))
-                        .AddSubject("Empresa - Canal de Noticia")
-                        .AddIssuer("Teste.Securiry.Bearer")
-                        .AddAudience("Teste.Securiry.Bearer")
-                        .AddClaim("IdUsuario", IdUsuario)
-                        .AddExpiry(60)
-                        .Builder();
-                
-                return Ok(token.value);
-            }
-            else
-            {
-                return Unauthorized();
+                return BadRequest(ex);
             }
         }
 
@@ -114,40 +96,16 @@ namespace API.Controllers
         [Produces("application/json")]
         public async Task<IActionResult> CreateUserIdentity([FromBody]Login login)
         {
-            if(string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))
-            {
-                return Unauthorized();
-            }
-            var user = new ApplicationUser()
-            {
-                UserName = login.email,
-                Email = login.email,
-                Celular = login.celular,
-                Tipo = TipoUsuario.Comum
-            };
-            var result = await _userManager.CreateAsync(user, login.senha);
-            if(result.Errors.Any())
-            {
-                return Ok(result.Errors);
-            }
-            // GERAÇÃO DE CONFIRMAÇÃO CASO PRECISE
-            var userId = await _userManager.GetUserIdAsync(user);
-            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-
-            // RETORNO EMAIL DA CONFIRMAÇÃO
-            code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code));
-            var resultDeConfirmacao = await _userManager.ConfirmEmailAsync(user, code);
-
-            var statusMessage = resultDeConfirmacao.Succeeded;
-
-            if(resultDeConfirmacao.Succeeded)
-                return Ok("Usuário confirmado com sucesso...!");
-            
-            return BadRequest("Erro ao confirmar usuário.");
+           try
+           {
+                var result = await _appUsuario.CreateUser(login.email,login.senha,login.celular);
+                return Ok(result);
+           }
+           catch(Exception ex)
+           {
+                return BadRequest(ex);
+           }
 
         }
-
-
     }
 }
