@@ -1,13 +1,8 @@
-using System.Text;
 using API.Application.Interfaces;
-using API.Domain.Enums;
 using API.Domain.Models;
-using API.Token;
 using API.ViewModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
 
 namespace API.Controllers
 {
@@ -79,7 +74,6 @@ namespace API.Controllers
             return await _appUsuario.ListaDeUsuario();
         }
 
-
         // MESMA FORMA  DO ENDPOINT CREATETOKEN, MAS USANDO AS FERRAMENTAS DO IDENTITY
         [HttpPost("/api/CreateTokenIdentity")]
         [AllowAnonymous]
@@ -113,7 +107,5 @@ namespace API.Controllers
            }
 
         }
-
-
     }
 }
