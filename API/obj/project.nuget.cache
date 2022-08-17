@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqWNrGz71uQac8yDGfcOgFUGV4gHfBXHsRPYaq6+QaYttFXf9pWoM4d2yiq/X/RK/QHrtiqxY7qlF5Unht0AMQ==",
+  "dgSpecHash": "UEPNo85cElLFdosiuCcSSzLuLPc9f6PYm6lQmW7zFmkS4CogpkvGUizQMDlSfYUo79qtJfh34CcTGUO7bqTrpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\API.csproj",
+  "projectFilePath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ventu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",

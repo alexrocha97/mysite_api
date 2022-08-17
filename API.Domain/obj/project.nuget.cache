@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "luucRrXHQj/lynTMorzqymBabMlb55qDoTSIos9vCyk+bW0oRXwreCWt2KMW7MhGLqe+MVEAHQedzcmZEcI8lA==",
+  "dgSpecHash": "eTetmi8Q4SzCQfTb149NrPHtffI3UHmROcwo9e3/hOX2nYY8BwaDiUrGLID986yBTotzT8wseB2jEAuhmLwAMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj",
+  "projectFilePath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ventu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.7\\microsoft.aspnetcore.cryptography.internal.6.0.7.nupkg.sha512",

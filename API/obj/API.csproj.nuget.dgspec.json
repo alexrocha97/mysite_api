@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\API.csproj": {}
+    "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\API.Application.csproj": {
+    "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\API.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\API.Application.csproj",
+        "projectUniqueName": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\API.Application.csproj",
         "projectName": "API.Application",
-        "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\API.Application.csproj",
+        "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\API.Application.csproj",
         "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\obj\\",
+        "outputPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj": {
-                "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj"
+              "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj": {
+                "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj": {
+    "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj",
+        "projectUniqueName": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj",
         "projectName": "API.Domain",
-        "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj",
+        "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj",
         "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\obj\\",
+        "outputPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\API.Infra.csproj": {
+    "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\API.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\API.Infra.csproj",
+        "projectUniqueName": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\API.Infra.csproj",
         "projectName": "API.Infra",
-        "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\API.Infra.csproj",
+        "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\API.Infra.csproj",
         "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\obj\\",
+        "outputPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +169,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj": {
-                "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj"
+              "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj": {
+                "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj"
               }
             }
           }
@@ -225,14 +225,14 @@
         }
       }
     },
-    "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\API.csproj": {
+    "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\API.csproj",
+        "projectUniqueName": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\API.csproj",
+        "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API\\obj\\",
+        "outputPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -250,14 +250,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\API.Application.csproj": {
-                "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Application\\API.Application.csproj"
+              "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\API.Application.csproj": {
+                "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Application\\API.Application.csproj"
               },
-              "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj": {
-                "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Domain\\API.Domain.csproj"
+              "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj": {
+                "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Domain\\API.Domain.csproj"
               },
-              "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\API.Infra.csproj": {
-                "projectPath": "C:\\Users\\ventu\\OneDrive\\Área de Trabalho\\mysite_api\\API.Infra\\API.Infra.csproj"
+              "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\API.Infra.csproj": {
+                "projectPath": "D:\\Repositórios\\02 - PROJ_Pessoais\\01 - PROJETO_SITENOTICIA\\mysite_api\\API.Infra\\API.Infra.csproj"
               }
             }
           }

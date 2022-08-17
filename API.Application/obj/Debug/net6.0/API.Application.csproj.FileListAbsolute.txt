@@ -13,3 +13,18 @@ C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Application\obj\Debug\n
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Application\obj\Debug\net6.0\refint\API.Application.dll
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Application\obj\Debug\net6.0\API.Application.pdb
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Application\obj\Debug\net6.0\ref\API.Application.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\bin\Debug\net6.0\API.Application.deps.json
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\bin\Debug\net6.0\API.Application.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\bin\Debug\net6.0\API.Application.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\bin\Debug\net6.0\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\bin\Debug\net6.0\API.Domain.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.csproj.AssemblyReference.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.AssemblyInfoInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.AssemblyInfo.cs
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.csproj.CoreCompileInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.csproj.CopyComplete
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\refint\API.Application.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\API.Application.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Application\obj\Debug\net6.0\ref\API.Application.dll

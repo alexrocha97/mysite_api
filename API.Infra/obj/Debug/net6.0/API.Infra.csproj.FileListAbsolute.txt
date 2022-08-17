@@ -15,3 +15,20 @@ C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.pdb
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.genruntimeconfig.cache
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Infra\obj\Debug\net6.0\ref\API.Infra.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.deps.json
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.runtimeconfig.json
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Infra.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\bin\Debug\net6.0\API.Domain.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.AssemblyReference.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfoInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.AssemblyInfo.cs
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.CoreCompileInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.csproj.CopyComplete
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\refint\API.Infra.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\API.Infra.genruntimeconfig.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Infra\obj\Debug\net6.0\ref\API.Infra.dll
