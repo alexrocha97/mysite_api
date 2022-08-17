@@ -1,12 +1,8 @@
-using System.Text;
 using API.Application.Interfaces;
-using API.Application.Token;
-using API.Domain.Enums;
 using API.Domain.Interfaces;
 using API.Domain.Models;
 using API.Domain.Notifications;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.WebUtilities;
 
 namespace API.Application.Applications
 {

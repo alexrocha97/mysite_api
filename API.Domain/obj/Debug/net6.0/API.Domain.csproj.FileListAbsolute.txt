@@ -12,3 +12,17 @@ C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Domain\obj\Debug\net6.0
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.pdb
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.genruntimeconfig.cache
 C:\Users\ventu\OneDrive\Área de Trabalho\mysite_api\API.Domain\obj\Debug\net6.0\ref\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\bin\Debug\net6.0\API.Domain.deps.json
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\bin\Debug\net6.0\API.Domain.runtimeconfig.json
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\bin\Debug\net6.0\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\bin\Debug\net6.0\API.Domain.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.csproj.AssemblyReference.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.AssemblyInfoInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.AssemblyInfo.cs
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.csproj.CoreCompileInputs.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\refint\API.Domain.dll
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.pdb
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\API.Domain.genruntimeconfig.cache
+D:\Repositórios\02 - PROJ_Pessoais\01 - PROJETO_SITENOTICIA\mysite_api\API.Domain\obj\Debug\net6.0\ref\API.Domain.dll
